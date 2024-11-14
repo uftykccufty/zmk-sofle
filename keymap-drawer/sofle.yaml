@@ -93,8 +93,8 @@ layers:
   - {t: '-', s: _}
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
-  - '~'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+ A
+  - Ctl+ S
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
@@ -253,7 +253,7 @@ layers:
   - LGUI
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
-  - Functions
+  - {t: N, h: Functions}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: Normal, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -318,7 +318,7 @@ layers:
   - LGUI
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
-  - Functions
+  - {t: Y, h: Functions}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: Normal, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
