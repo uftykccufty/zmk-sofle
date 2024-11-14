@@ -60,7 +60,7 @@ layers:
   - $$mdi:keyboard-space$$
   - Functions
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: Functions, h: toggle}
+  - Functions
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - System
   - HOME
@@ -125,7 +125,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - LANG HIRAGANA
   - {t: QWERTY, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -255,9 +255,9 @@ layers:
   - $$mdi:keyboard-space$$
   - Functions
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: Normal, h: toggle}
+  - Functions
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - RPG_Maker
+  - {t: RPG_Maker, h: toggle}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
   RPG_Maker:
@@ -322,6 +322,6 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: Normal, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: QWERTY, type: held}
+  - {t: QWERTY, h: toggle}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
