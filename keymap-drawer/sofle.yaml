@@ -1,70 +1,5 @@
 layout: {qmk_keyboard: sofle/rev1}
 layers:
-  Normal:
-  - $$mdi:keyboard-esc$$
-  - '1'
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - $$mdi:arrow-up-bold$$
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
-  - {t: '-', s: _}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '''', s: '"'}
-  - {t: ',', s: <}
-  - .
-  - P
-  - Y
-  - $$mdi:arrow-down-bold$$
-  - F
-  - G
-  - C
-  - R
-  - L
-  - {t: '=', s: +}
-  - $$mdi:apple-keyboard-caps$$
-  - A
-  - O
-  - E
-  - U
-  - I
-  - $$mdi:arrow-left-bold$$
-  - D
-  - H
-  - T
-  - N
-  - S
-  - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
-  - {t: ;, s: ':'}
-  - Q
-  - J
-  - K
-  - X
-  - $$mdi:arrow-right-bold$$
-  - B
-  - M
-  - W
-  - V
-  - Z
-  - {t: '`', s: '~'}
-  - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-space$$
-  - Functions
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - Functions
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - System
-  - HOME
-  - $$mdi:backspace-reverse-outline$$
   QWERTY:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
@@ -128,7 +63,7 @@ layers:
   - Functions
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: RPGMaker, h: toggle}
-  - $$mdi:apple-keyboard-shift$$
+  - HOME
   - $$mdi:backspace-reverse-outline$$
   RPGMaker:
   - $$mdi:keyboard-esc$$
@@ -193,7 +128,72 @@ layers:
   - Functions
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: QWERTY, h: toggle}
+  - HOME
+  - $$mdi:backspace-reverse-outline$$
+  Normal:
+  - $$mdi:keyboard-esc$$
+  - '1'
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - $$mdi:arrow-up-bold$$
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-tab$$
+  - {t: '''', s: '"'}
+  - {t: ',', s: <}
+  - .
+  - P
+  - Y
+  - $$mdi:arrow-down-bold$$
+  - F
+  - G
+  - C
+  - R
+  - L
+  - {t: '=', s: +}
+  - $$mdi:apple-keyboard-caps$$
+  - A
+  - O
+  - E
+  - U
+  - I
+  - $$mdi:arrow-left-bold$$
+  - D
+  - H
+  - T
+  - N
+  - S
+  - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
+  - {t: ;, s: ':'}
+  - Q
+  - J
+  - K
+  - X
+  - $$mdi:arrow-right-bold$$
+  - B
+  - M
+  - W
+  - V
+  - Z
+  - {t: '`', s: '~'}
+  - $$mdi:volume-off$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:keyboard-space$$
+  - Functions
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - Functions
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: QWERTY, h: toggle}
+  - HOME
   - $$mdi:backspace-reverse-outline$$
   Functions:
   - {t: '`', s: '~'}
@@ -209,8 +209,8 @@ layers:
   - F9
   - F10
   - F11
-  - Alt+ $$mdi:keyboard-tab$$
-  - Alt+ Q
+  - $$mdi:keyboard-tab$$
+  - Alt+ F4
   - Ctl+ W
   - Sft+ C
   - Ctl+ T
@@ -247,7 +247,7 @@ layers:
   - Ins
   - F11
   - F12
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: System, h: toggle}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -322,6 +322,6 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: QWERTY, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
