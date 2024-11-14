@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: sofle/rev1}
 layers:
-  LAYER0:
+  Normal:
   - $$mdi:keyboard-esc$$
   - '1'
   - {t: '2', s: '@'}
@@ -58,14 +58,14 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
-  - layer1
+  - Functions
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '3', h: toggle}
+  - {t: Functions, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '2'
+  - System
   - HOME
   - $$mdi:backspace-reverse-outline$$
-  layer1:
+  Functions:
   - {t: '`', s: '~'}
   - F1
   - F2
@@ -106,7 +106,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB OFF
+  - Alt+ Z
   - Ctl+ X
   - Ctl+ C
   - Ctl+ V
@@ -127,10 +127,10 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - LANG HIRAGANA
+  - {t: QWERTY, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  '2':
+  System:
   - '~'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -195,7 +195,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '3':
+  QWERTY:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -215,7 +215,7 @@ layers:
   - E
   - R
   - T
-  - Y
+  - $$mdi:arrow-down-bold$$
   - Y
   - U
   - I
@@ -253,10 +253,75 @@ layers:
   - LGUI
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
-  - layer1
+  - Functions
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: LAYER0, h: toggle}
+  - {t: Normal, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '2'
+  - RPG_Maker
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:backspace-reverse-outline$$
+  RPG_Maker:
+  - $$mdi:keyboard-esc$$
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - W
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-tab$$
+  - Q
+  - $$mdi:arrow-up-bold$$
+  - E
+  - R
+  - T
+  - S
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: \, s: '|'}
+  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - F
+  - G
+  - A
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - D
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:volume-off$$
+  - $$mdi:apple-keyboard-control$$
+  - LGUI
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:keyboard-space$$
+  - Functions
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: Normal, h: toggle}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: QWERTY, type: held}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
