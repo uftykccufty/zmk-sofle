@@ -130,7 +130,7 @@ layers:
   - {t: QWERTY, h: toggle}
   - HOME
   - $$mdi:backspace-reverse-outline$$
-  Normal:
+  Dvorak:
   - $$mdi:keyboard-esc$$
   - '1'
   - {t: '2', s: '@'}
@@ -222,7 +222,7 @@ layers:
   - HOME
   - {t: '-', s: _}
   - F12
-  - {t: Normal, h: toggle}
+  - {t: Dvorak, h: toggle}
   - Ctl+ A
   - Ctl+ S
   - {t: '$$mdi:transfer$$', type: trans}
