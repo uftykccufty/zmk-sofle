@@ -92,7 +92,7 @@ layers:
   - HOME
   - {t: '-', s: _}
   - F12
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Normal, h: toggle}
   - Ctl+ A
   - Ctl+ S
   - {t: '$$mdi:transfer$$', type: trans}
@@ -123,10 +123,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Normal, h: toggle, type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - $$mdi:mouse-left-click-outline$$
-  - {t: Normal, h: toggle, type: held alternate}
-  - LANG HIRAGANA
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - INT KATAKANAHIRAGANA
   - {t: QWERTY, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -253,9 +253,9 @@ layers:
   - LGUI
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
-  - {t: N, h: Functions}
+  - Functions
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: Normal, h: toggle}
+  - Functions
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: RPGMaker, h: toggle}
   - $$mdi:apple-keyboard-shift$$
@@ -318,9 +318,9 @@ layers:
   - LGUI
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
-  - {t: Y, h: Functions}
+  - Functions
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: Normal, h: toggle}
+  - Functions
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: QWERTY, h: toggle}
   - $$mdi:apple-keyboard-shift$$
