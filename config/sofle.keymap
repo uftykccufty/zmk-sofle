@@ -41,7 +41,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        layer0 {
+        Normal {
             bindings = <
 &kp ESC        &kp NUMBER_1   &kp N2        &kp N3        &kp N4     &kp N5    &kp UP_ARROW     &kp N6  &kp N7     &kp N8  &kp N9    &kp N0   &kp MINUS
 &kp BACKSPACE  &kp SQT        &kp COMMA     &kp PERIOD    &kp P      &kp Y     &kp DOWN_ARROW   &kp F   &kp G      &kp C   &kp R     &kp L    &kp EQUAL
@@ -54,13 +54,13 @@
             display-name = "Normal";
         };
 
-        Function {
+        Functions {
             bindings = <
 &kp GRAVE   &kp F1     &kp F2     &kp F3     &kp F4     &kp F5           &mmv MOVE_UP     &kp F6           &kp F7             &kp F8      &kp F9     &kp F10           &kp F11
-&trans      &kp LA(Q)  &kp LC(W)  &kp LS(C)  &kp LC(T)  &kp LS(LC(T))    &mmv MOVE_DOWN   &kp PG_UP        &kp END            &kp UP      &kp HOME   &kp MINUS         &kp F12
+&kp TAB     &kp LA(Q)  &kp LC(W)  &kp LS(C)  &kp LC(T)  &kp LS(LC(T))    &mmv MOVE_DOWN   &kp PG_UP        &kp END            &kp UP      &kp HOME   &kp MINUS         &kp F12
 &trans      &kp TILDE  &trans     &trans     &trans     &mkp MB5         &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT           &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans      &kp LA(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(V)        &mmv MOVE_RIGHT  &kp PRINTSCREEN  &rgb_ug RGB_BRD    &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE  &trans     &trans     &trans     &trans     &trans           &mkp LCLK        &trans           &kp LANG_HIRAGANA  &to 3       &trans     &trans
+&kp C_MUTE  &trans     &trans     &trans     &trans     &to 0            &mkp LCLK        &to 0            &kp LANG_HIRAGANA  &to 3       &trans     &trans
             >;
 
             display-name = "Functions";
@@ -97,7 +97,7 @@
 &kp TAB     &kp Q      &kp UP    &kp E      &kp R      &kp T     &kp S      &kp Y   &kp U      &kp I      &kp O      &kp P     &kp BSLH
 &kp CAPS    &kp LEFT   &kp DOWN  &kp RIGHT  &kp F      &kp G     &kp A      &kp H   &kp J      &kp K      &kp L      &kp SEMI  &kp SQT
 &kp LSHFT   &kp Z      &kp X     &kp C      &kp V      &kp B     &kp D      &kp N   &kp M      &kp COMMA  &kp DOT    &kp FSLH  &kp RET
-&kp C_MUTE  &kp LCTRL  &kp LGUI  &kp LALT   &kp SPACE  &mo 1     &kp ENTER  &to 0   &kp ENTER  &to 3      &kp RSHFT  &kp DEL
+&kp C_MUTE  &kp LCTRL  &kp LGUI  &kp LALT   &kp SPACE  &mo 1     &kp ENTER  &mo 1   &kp ENTER  &to 3      &kp RSHFT  &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOLUME_DOWN>;
