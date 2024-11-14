@@ -255,12 +255,12 @@ layers:
   - $$mdi:keyboard-space$$
   - Functions
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - Functions
+  - {t: Normal, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: RPG_Maker, h: toggle}
+  - {t: RPGMaker, h: toggle}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
-  RPG_Maker:
+  RPGMaker:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -320,7 +320,7 @@ layers:
   - $$mdi:keyboard-space$$
   - Functions
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - Functions
+  - {t: Normal, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: QWERTY, h: toggle}
   - $$mdi:apple-keyboard-shift$$

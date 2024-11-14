@@ -1648,9 +1648,10 @@ rect.held, rect.combo.held {
 <g transform="translate(535, 294) rotate(-30.0)" class="key keypos-59">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#Functions">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 67%">Functions</tspan></text>
-</a></g>
+<a href="#Normal">
+<text x="0" y="-4" class="key tap layer-activator">Normal</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
+</g>
 <g transform="translate(610, 283) rotate(-30.0)" class="key enter keypos-60">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key enter side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key enter"/>
@@ -1659,8 +1660,8 @@ rect.held, rect.combo.held {
 <g transform="translate(672, 259)" class="key keypos-61">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#RPG_Maker">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 67%">RPG_Maker</tspan></text>
+<a href="#RPGMaker">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 75%">RPGMaker</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(728, 252)" class="key keypos-62">
@@ -1675,8 +1676,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1553)" class="layer-RPG_Maker">
-<text x="0" y="28" class="label" id="RPG_Maker">RPG_Maker:</text>
+<g transform="translate(40, 1553)" class="layer-RPGMaker">
+<text x="0" y="28" class="label" id="RPGMaker">RPGMaker:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1993,9 +1994,10 @@ rect.held, rect.combo.held {
 <g transform="translate(535, 294) rotate(-30.0)" class="key keypos-59">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#Functions">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 67%">Functions</tspan></text>
-</a></g>
+<a href="#Normal">
+<text x="0" y="-4" class="key tap layer-activator">Normal</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
+</g>
 <g transform="translate(610, 283) rotate(-30.0)" class="key enter keypos-60">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key enter side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key enter"/>
