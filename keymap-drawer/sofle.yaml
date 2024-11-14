@@ -79,7 +79,7 @@ layers:
   - F9
   - F10
   - F11
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-tab$$
   - Alt+ Q
   - Ctl+ W
   - Sft+ C
@@ -123,9 +123,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: Normal, h: toggle, type: held}
   - $$mdi:mouse-left-click-outline$$
-  - {type: held alternate}
+  - {t: Normal, h: toggle, type: held alternate}
   - LANG HIRAGANA
   - {t: QWERTY, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -320,7 +320,7 @@ layers:
   - $$mdi:keyboard-space$$
   - Functions
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: Normal, h: toggle}
+  - Functions
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: QWERTY, h: toggle}
   - $$mdi:apple-keyboard-shift$$
