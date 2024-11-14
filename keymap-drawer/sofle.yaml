@@ -209,7 +209,7 @@ layers:
   - F9
   - F10
   - F11
-  - $$mdi:keyboard-tab$$
+  - Alt+ $$mdi:keyboard-tab$$
   - Alt+ Q
   - Ctl+ W
   - Sft+ C
@@ -235,7 +235,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-tab$$
   - Alt+ Z
   - Ctl+ X
   - Ctl+ C
