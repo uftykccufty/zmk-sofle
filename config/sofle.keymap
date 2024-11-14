@@ -82,11 +82,11 @@
 
         Functions {
             bindings = <
-&kp GRAVE   &kp F1     &kp F2     &kp F3     &kp F4     &kp F5           &mmv MOVE_UP     &kp F6           &kp F7                    &kp F8      &kp F9     &kp F10           &kp F11
-&kp TAB     &kp LA(Q)  &kp LC(W)  &kp LS(C)  &kp LC(T)  &kp LS(LC(T))    &mmv MOVE_DOWN   &kp PG_UP        &kp END                   &kp UP      &kp HOME   &kp MINUS         &kp F12
-&to 0       &kp LC(A)  &kp LC(S)  &trans     &trans     &mkp MB5         &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT                  &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &kp LA(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(V)        &mmv MOVE_RIGHT  &kp PRINTSCREEN  &rgb_ug RGB_BRD           &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE  &trans     &trans     &trans     &trans     &none            &mkp LCLK        &none            &kp INT_KATAKANAHIRAGANA  &to 1       &trans     &trans
+&kp GRAVE    &kp F1     &kp F2     &kp F3     &kp F4     &kp F5           &mmv MOVE_UP     &kp F6           &kp F7                    &kp F8      &kp F9     &kp F10           &kp F11
+&kp LA(TAB)  &kp LA(Q)  &kp LC(W)  &kp LS(C)  &kp LC(T)  &kp LS(LC(T))    &mmv MOVE_DOWN   &kp PG_UP        &kp END                   &kp UP      &kp HOME   &kp MINUS         &kp F12
+&to 0        &kp LC(A)  &kp LC(S)  &trans     &trans     &mkp MB5         &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT                  &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp TAB      &kp LA(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(V)        &mmv MOVE_RIGHT  &kp PRINTSCREEN  &rgb_ug RGB_BRD           &kp INSERT  &kp F11    &kp F12           &trans
+&kp C_MUTE   &trans     &trans     &trans     &trans     &none            &mkp LCLK        &none            &kp INT_KATAKANAHIRAGANA  &to 1       &trans     &trans
             >;
 
             display-name = "Functions";
