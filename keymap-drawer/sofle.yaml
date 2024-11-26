@@ -47,87 +47,22 @@ layers:
   - V
   - B
   - $$mdi:arrow-right-bold$$
+  - Ctl+ $$mdi:apple-keyboard-caps$$
   - N
   - M
   - {t: ',', s: <}
-  - {t: ., s: '>'}
+  - .
   - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
   - LGUI
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
-  - Functions
+  - HotKeys
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - Functions
+  - HotKeys
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: RPGMaker, h: toggle}
-  - HOME
-  - $$mdi:backspace-reverse-outline$$
-  RPGMaker:
-  - $$mdi:keyboard-esc$$
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - W
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
-  - Q
-  - $$mdi:arrow-up-bold$$
-  - E
-  - R
-  - T
-  - S
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: \, s: '|'}
-  - $$mdi:apple-keyboard-caps$$
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
-  - F
-  - G
-  - A
-  - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - D
-  - N
-  - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-control$$
-  - LGUI
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-space$$
-  - Functions
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - Functions
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: QWERTY, h: toggle}
+  - System
   - HOME
   - $$mdi:backspace-reverse-outline$$
   Dvorak:
@@ -188,14 +123,14 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
-  - Functions
+  - HotKeys
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - Functions
+  - HotKeys
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: QWERTY, h: toggle}
+  - System
   - HOME
   - $$mdi:backspace-reverse-outline$$
-  Functions:
+  HotKeys:
   - {t: '`', s: '~'}
   - F1
   - F2
@@ -209,7 +144,7 @@ layers:
   - F9
   - F10
   - F11
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - Alt+ F4
   - Ctl+ W
   - Sft+ C
@@ -222,7 +157,7 @@ layers:
   - HOME
   - {t: '-', s: _}
   - F12
-  - {t: Dvorak, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+ A
   - Ctl+ S
   - {t: '$$mdi:transfer$$', type: trans}
@@ -236,7 +171,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - $$mdi:keyboard-tab$$
-  - Alt+ Z
+  - Ctl+ Z
   - Ctl+ X
   - Ctl+ C
   - Ctl+ V
@@ -247,7 +182,7 @@ layers:
   - Ins
   - F11
   - F12
-  - {t: System, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -257,7 +192,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - INT KATAKANAHIRAGANA
-  - {t: QWERTY, h: toggle}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   System:
@@ -268,8 +203,8 @@ layers:
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - F6
-  - F7
+  - {t: QWERTY, h: toggle}
+  - {t: Dvorak, h: toggle}
   - F8
   - F9
   - F10
@@ -322,6 +257,6 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: QWERTY, h: toggle}
+  - {t: QWERTY, h: toggle, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
