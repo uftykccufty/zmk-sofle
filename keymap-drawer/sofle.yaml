@@ -47,7 +47,7 @@ layers:
   - V
   - B
   - $$mdi:arrow-right-bold$$
-  - Ctl+ $$mdi:apple-keyboard-caps$$
+  - Ctl+ $$mdi:keyboard-space$$
   - N
   - M
   - {t: ',', s: <}
@@ -131,12 +131,12 @@ layers:
   - HOME
   - $$mdi:backspace-reverse-outline$$
   HotKeys:
+  - F1
   - F2
   - F3
   - F4
   - F5
   - F6
-  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F7
   - F8
@@ -144,7 +144,7 @@ layers:
   - F10
   - F11
   - F12
-  - F1
+  - {t: '$$mdi:backspace$$', type: backspace}
   - Alt+ F4
   - Ctl+ W
   - Sft+ C
@@ -156,18 +156,18 @@ layers:
   - $$mdi:arrow-up-bold$$
   - HOME
   - {t: '-', s: _}
-  - F12
+  - {t: '=', s: +}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+ A
   - Ctl+ S
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB5'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PG DN
   - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
+  - Sft+ P
+  - Sft+ N
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '`', s: '~'}
@@ -177,8 +177,8 @@ layers:
   - Ctl+ V
   - Ctl+ V
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - PRINTSCREEN
-  - RGB BRD
+  - Ctl+ $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ins
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -242,7 +242,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - '&soft_off'
