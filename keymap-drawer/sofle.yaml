@@ -47,7 +47,7 @@ layers:
   - V
   - B
   - $$mdi:arrow-right-bold$$
-  - Ctl+ $$mdi:keyboard-space$$
+  - Gui+ $$mdi:keyboard-space$$
   - N
   - M
   - {t: ',', s: <}
